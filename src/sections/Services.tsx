@@ -1,12 +1,7 @@
 'use client';
-
-import Tag from "@/components/tag";
 import FeatureCard from "@/components/FeatureCard";
-import Avatar from "@/components/Avatar";
 import { UserCircleIcon, ChatBubbleBottomCenterTextIcon } from "@heroicons/react/24/outline"
 import Image from 'next/image';
-import ServiceCard from "@/components/serviceCard";
-import { FaChartLine, FaRobot, FaGraduationCap } from 'react-icons/fa';
 import gif1 from "@/assets/images/gif.gif";
 import FramerIcon from "@/assets/images/framer-logo.svg";
 import OpenAIcon from "@/assets/images/Openai-logo.svg"

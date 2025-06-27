@@ -1,7 +1,4 @@
 'use client';
-
-import Image from "next/image";
-import logoImage from "@/assets/images/newlogo.svg";
 import { FaLinkedin, FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 export default function Footer() {
