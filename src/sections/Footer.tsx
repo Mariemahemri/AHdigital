@@ -31,7 +31,7 @@ export default function Footer() {
         <a href="https://web.facebook.com/people/Ahdigital/61570213799534/" target="_blank" rel="noopener noreferrer" className="hover:text-lime-200">
           <FaFacebook />
         </a>
-        <a href="https://www.instagram.com/ahdigital01/" target="_blank" rel="noopener noreferrer" className="hover:text-lime-200">
+        <a href="https://www.instagram.com/ahdigitalautomation" target="_blank" rel="noopener noreferrer" className="hover:text-lime-200">
           <FaInstagram />
         </a>
         <a href="https://api.whatsapp.com/send/?phone=212636308953&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer" className="hover:text-lime-200">

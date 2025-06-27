@@ -169,8 +169,8 @@ export default function Features() {
               <div className="aspect-video relative rounded-xl border border-neutral-800 p-4 bg-neutral-900 overflow-hidden">
                 <div className="text-sm font-mono text-neutral-400 leading-relaxed h-full animate-slide-up">
                   <code>
-                    import React from 'react';<br />
-                    import {'{ Header, Footer, FeatureSection }'} from 'nebula-template';<br />
+                    import React from &apos;react&apos;;<br />
+                    import {'{ Header, Footer, FeatureSection }'} from &apos;nebula-template&apos;;<br />
                     const App = () =&gt; {'{'} <br />
                     &nbsp;&nbsp;return ( <br />
                     &nbsp;&nbsp;&nbsp;&nbsp;&lt;div&gt;<br />

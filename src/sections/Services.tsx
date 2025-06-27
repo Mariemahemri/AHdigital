@@ -190,7 +190,7 @@ export default function Services() {
                 <div className="text-white/80 text-sm space-y-3">
                   <p>Bien sûr, voici un résumé:</p>
                   <p className="italic bg-white/5 p-3 rounded-lg">
-                    Quokka BV experienced a 15% increase in revenue to €120 million from the previous year's...
+                    Quokka BV experienced a 15% increase in revenue to €120 million from the previous year&apos;s...
                   </p>
                 </div>
               </div>
