@@ -22,7 +22,7 @@ export default function Services() {
         <div className="mt-12 grid grid-cols-1 md:grid-cols-4 lg:grid-cols-3 gap-8">
           <FeatureCard
             title="Audit & conseil "
-            description="Notre offre d&apos;audit et de conseil est adaptée aux spécificités de votre organisation. Nous réalisons un audit détaillé de vos process et livrons des recommandations personnalisées pour intégrer l’IA de manière optimale."
+            description="Notre offre d&apos;audit et de conseil est adaptée aux spécificités de votre organisation. Nous réalisons un audit détaillé de vos process et livrons des recommandations personnalisées pour intégrer l&apos;IA de manière optimale."
             className="col-span-2 lg:col-span-1 group"
           >
             <div className="flex justify-center mb-4">

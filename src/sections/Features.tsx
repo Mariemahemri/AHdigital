@@ -112,7 +112,7 @@ export default function Features() {
           {/* Feature 02 */}
           <FeatureCard
             title="02. Consulting"
-            description="Nous identifions vos enjeux stratégiques et opérationnels pour déterminer comment l’intelligence artificielle peut répondre à vos besoins. Cette étape permet de poser les bases d’une transformation réussie."
+            description="Nous identifions vos enjeux stratégiques et opérationnels pour déterminer comment l&apos;intelligence artificielle peut répondre à vos besoins. Cette étape permet de poser les bases d&apos;une transformation réussie."
             className="col-span-2 lg:col-span-1 group"
           >
               <div className="aspect-video flex flex-col justify-center relative overflow-hidden rounded-xl border border-neutral-800 p-4 bg-neutral-900 gap-4">
@@ -163,7 +163,7 @@ export default function Features() {
 
           <FeatureCard
             title="03. Formation"
-            description="Nous formons les décideurs clés de votre organisation pour leur donner les outils et les connaissances nécessaires afin d’intégrer efficacement l’IA dans leur stratégie."
+            description="Nous formons les décideurs clés de votre organisation pour leur donner les outils et les connaissances nécessaires afin d&apos;intégrer efficacement l&apos;IA dans leur stratégie."
             className="col-span-2 lg:col-span-1  group custom-cursor"
           >
               <div className="aspect-video relative rounded-xl border border-neutral-800 p-4 bg-neutral-900 overflow-hidden">

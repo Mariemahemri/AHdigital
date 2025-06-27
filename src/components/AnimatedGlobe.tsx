@@ -1,13 +1,14 @@
-// components/AnimatedGlobe.tsx
 'use client';
 
 import dynamic from 'next/dynamic';
 import { useRef, useEffect } from 'react';
+import type { GlobeMethods } from 'react-globe.gl';
 
 const Globe = dynamic(() => import('react-globe.gl'), { ssr: false });
 
 export default function AnimatedGlobe() {
-  const globeEl = useRef<any>();
+  const globeEl = useRef<GlobeMethods | undefined>(undefined);
+
 
   useEffect(() => {
     if (!globeEl.current) return;
@@ -23,7 +24,10 @@ export default function AnimatedGlobe() {
         ref={globeEl}
         backgroundColor="rgba(0,0,0,0)"
         globeImageUrl="//unpkg.com/three-globe/example/img/earth-night.jpg"
-        pointsData={[{ lat: 48.8566, lng: 2.3522 }, { lat: 37.7749, lng: -122.4194 }]}
+        pointsData={[
+          { lat: 48.8566, lng: 2.3522 },
+          { lat: 37.7749, lng: -122.4194 }
+        ]}
         pointAltitude={0.02}
         pointColor={() => '#00ff99'}
         width={300}
