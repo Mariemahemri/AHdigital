@@ -3,7 +3,6 @@
 
 import dynamic from 'next/dynamic';
 import { useRef, useEffect } from 'react';
-import * as THREE from 'three';
 
 const Globe = dynamic(() => import('react-globe.gl'), { ssr: false });
 

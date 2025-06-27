@@ -13,11 +13,11 @@ export default function Hero() {
       {/* Contenu principal */}
       <div className="z-10 text-center px-4 max-w-4xl">
         <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-[#d2ffd2]">
-          L'IA <span className="text-white">à votre service.</span>
+          L&apos;IA <span className="text-white">à votre service.</span>
         </h1>
         
         <p className="mt-6 text-lg md:text-xl text-white/80">
-          Maîtrisez et intégrez l'IA générative pour augmenter la productivité de votre entreprise
+          Maîtrisez et intégrez l&apos;IA générative pour augmenter la productivité de votre entreprise
           et améliorer la qualité de votre travail.
         </p>
 

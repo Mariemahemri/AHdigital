@@ -103,7 +103,7 @@ export default function ContactSection() {
 
           {/* Rôle dans l'entreprise */}
           <div>
-            <label className="block text-white/80 mb-2">Quel est votre rôle dans l'entreprise ? * </label>
+            <label className="block text-white/80 mb-2">Quel est votre rôle dans l&apos;entreprise ? * </label>
             <input 
               type="text"
               name="role"
@@ -121,7 +121,7 @@ export default function ContactSection() {
               <input 
                 type="text"
                 name="company"
-                placeholder="Saisissez le nom de l'entreprise"
+                placeholder="Saisissez le nom de l&apos;entreprise"
                 value={formData.company}
                 onChange={handleChange}
                 className="w-full bg-white/10 border border-white/10 rounded-lg px-4 py-3 text-white focus:outline-none focus:ring-2 focus:ring-white/10  placeholder-neutral-400 focus:outline-none"
@@ -132,7 +132,7 @@ export default function ContactSection() {
               <input 
                 type="text"
                 name="website"
-                placeholder="Saisissez le site web de l'entreprise"
+                placeholder="Saisissez le site web de l&apos;entreprise"
                 value={formData.website}
                 onChange={handleChange}
                 className="w-full bg-white/10 border border-white/10 rounded-lg px-4 py-3 text-white focus:outline-none focus:ring-2 focus:ring-white/10  placeholder-neutral-400 focus:outline-none"
@@ -143,7 +143,7 @@ export default function ContactSection() {
           {/* Taille entreprise et CA */}
           <div className="grid md:grid-cols-2 gap-6">
             <div>
-              <label className="block text-white/80 mb-2">Taille de l'entreprise *</label>
+              <label className="block text-white/80 mb-2">Taille de l&apos;entreprise *</label>
               <select
                 name="companySize"
                 value={formData.companySize}
@@ -159,7 +159,7 @@ export default function ContactSection() {
               </select>
             </div>
             <div>
-              <label className="block text-white/80 mb-2">Chiffre d'affaires annuel * </label>
+              <label className="block text-white/80 mb-2">Chiffre d&apos;affaires annuel * </label>
               <select
                 name="annualRevenue"
                 value={formData.annualRevenue}
@@ -203,7 +203,7 @@ export default function ContactSection() {
               >
                 <option value="">Sélectionnez un service</option>
                 <option value="opportunites-ia">Identifier les opportunités IA</option>
-                <option value="formation-ia">Former votre équipe à l'IA</option>
+                <option value="formation-ia">Former votre équipe à l&apos;IA</option>
                 <option value="solutions-ia">Développer des solutions IA sur mesure</option>
               </select>
             </div>

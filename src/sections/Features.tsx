@@ -19,7 +19,6 @@ import { useEffect, useState } from "react";
 
 
 export default function Features() {
-  const [bgScope, bgAnimate] = useAnimate();
   const [isOn, setIsOn] = useState(true);
   const [selectedOption, setSelectedOption] = useState("Pro");
 

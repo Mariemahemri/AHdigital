@@ -1,7 +1,7 @@
 'use client';
 
 import { useMotionValueEvent, useScroll, useTransform } from "framer-motion";
-import { useEffect, useRef, useState } from "react";
+import { useRef, useState } from "react";
 import { twMerge } from "tailwind-merge";
 
 export default function Introduction() {
