@@ -1,12 +1,6 @@
 'use client';
-
-import Tag from "@/components/tag";
 import FeatureCard from "@/components/FeatureCard";
-import Avatar from "@/components/Avatar";
-import Key from "@/components/Key";
 import Image from "next/image";
-
-
 import img1 from "@/assets/images/ChatGPT-Logo.svg.png";
 import img2 from "@/assets/images/stripe.jpg"
 import img3 from "@/assets/images/github-logo.svg";

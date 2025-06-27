@@ -9,10 +9,8 @@ import ServiceCard from "@/components/serviceCard";
 import { FaChartLine, FaRobot, FaGraduationCap } from 'react-icons/fa';
 import gif1 from "@/assets/images/gif.gif";
 import FramerIcon from "@/assets/images/framer-logo.svg";
-import OpenAIcon from "@/assets/images/openai-logo.svg"
+import OpenAIcon from "@/assets/images/Openai-logo.svg"
 import AirtableIcon from "@/assets/images/airtable-logo.svg"
-import pic2 from "@/assets/images/avatar-lula-meyers.jpg";
-import avatar4 from "@/assets/images/avatar-owen-garcia.jpg";
 import { motion } from "framer-motion";
 import { useState } from "react";
 
