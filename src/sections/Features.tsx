@@ -10,7 +10,7 @@ import img7 from "@/assets/images/notion-logo.svg";
 
 import AnimatedGlobe from "@/components/AnimatedGlobe";
 
-import { motion, useAnimate } from "framer-motion";
+import { motion} from "framer-motion";
 import { useEffect, useState } from "react";
 
 
@@ -52,6 +52,7 @@ export default function Features() {
         <h2 className="text-6xl md:text-7xl lg:text-8xl font-medium text-left mt-6 max-w-2xl">
           Notre <span className="text-lime-200"> procédé </span>
         </h2>
+        <span className="hidden">{iconIndex}</span>
 
         <div className="mt-12 grid grid-cols-1 md:grid-cols-4 lg:grid-cols-3 gap-8">
           {/* Feature 01 */}
